@@ -10,7 +10,7 @@ Code is separated based on who wrote what and follows the naming convention `Nam
 - [x] 2. Mirror, Mirror (Solved by: Donovan)
 - [x] 3. File Extensions (Solved by: Donovan)
 - [x] 4. Sort Numbers (Solved by: Donovan)
-- [ ] 5. Software Removal
+- [x] 5. Software Removal (Solved by: Lily)
 - [x] 6. Golf Scores (Solved by: Donovan)
 - [x] 7. Making Change (Solved by: Lily, Donovan)
 - [x] 8. n choose k (Solved by: Donovan)
