@@ -1,7 +1,3 @@
-// INCOMPLETE
-// Calculations work, but need to format the numbers
-// "If your answers are not integers, print only one decimal place."
-// "If they are integers, then print them like so."
 import java.util.*;
 import java.io.*;
 
