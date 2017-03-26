@@ -13,7 +13,7 @@ Code is separated based on who wrote what and follows the naming convention `Nam
 - [ ] 5. Software Removal
 - [x] 6. Golf Scores (Solved by: Donovan)
 - [x] 7. Making Change (Solved by: Lily, Donovan)
-- [ ] 8. n choose k
+- [x] 8. n choose k (Solved by: Donovan)
 - [x] 9. The Three M's (Solved by: Donovan)
 - [x] 10. IP Addresses (Solved by: Donovan)
 - [x] 11. Camel Case (Solved by: Donovan)
