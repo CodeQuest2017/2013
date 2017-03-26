@@ -21,5 +21,5 @@ Code is separated based on who wrote what and follows the naming convention `Nam
 - [x] 13. Encode / Decode (Solved by: Donovan)
 - [ ] 14. Word Search
 - [ ] 15. Authenticate Logins
-- [ ] 16. Bingo!
+- [x] 16. Bingo! (Solved by: Donovan)
 - [ ] 17. Thinning
