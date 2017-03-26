@@ -33,7 +33,7 @@ public class Problem05{
                 days++;
             }
             
-            if (days>180){
+            if (days>=180){
                 System.out.println(soft+", "+days);
             }
         }
