@@ -45,8 +45,22 @@ public class Prob09 {
 				median = arr[size / 2];
 			}
 
-			System.out.print("Set " + ++N + ": " + "Mean=" + mean);
-			System.out.print(", Median=" + median + ", Mode=");
+			mean = ((int) (mean * 10)) / 10.0;
+			String sMean = String.valueOf(mean);
+			int index = sMean.indexOf(".");
+			if(sMean.charAt(index + 1) == '0') {
+				sMean = sMean.substring(0, index);
+			}
+
+			median = ((int) (median * 10)) / 10.0;
+			String sMedian = String.valueOf(median);
+			int index2 = sMedian.indexOf(".");
+			if(sMedian.charAt(index2 + 1) == '0') {
+				sMedian = sMedian.substring(0, index2);
+			}
+
+			System.out.print("Set " + ++N + ": " + "Mean=" + sMean);
+			System.out.print(", Median=" + sMedian + ", Mode=");
 			System.out.print(modes.get(0));
 			for(int i = 1, x = modes.size(); i < x; i++) {
 				System.out.print("," + modes.get(i));
