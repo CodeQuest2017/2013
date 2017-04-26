@@ -2,11 +2,11 @@ import java.util.*;
 import java.io.*;
 
 public class Prob13 {
-	public static final String dir = "../../Cases/2013/sample/in/";
 	public static final String[] T = new String[]
 		{"A", "B", "X", "1", "5", "8", "U", "Q", "Y", "3", "R", "G", "K", "4", "E", "7"};
 	public static Map<String, Character> map = new HashMap<String, Character>();
 	public static void main(String[] args) throws IOException {
+		final String dir = (args.length > 0) ? args[0] : "../../Cases/2013/sample/in/";
 		Scanner scan = new Scanner(new File(dir + "Prob13.in.txt"));
 		makeMap();
 		while(scan.hasNextLine()) {

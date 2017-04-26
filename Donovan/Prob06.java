@@ -2,8 +2,8 @@ import java.util.*;
 import java.io.*;
 
 public class Prob06 {
-	public static final String dir = "../../Cases/2013/sample/in/";
 	public static void main(String[] args) throws IOException {
+		final String dir = (args.length > 0) ? args[0] : "../../Cases/2013/sample/in/";
 		Scanner scan = new Scanner(new File(dir + "Prob06.in.txt"));
 		// We can map the sums themselves since we can safely assume
 		// that there will be no ties for each place

@@ -4,7 +4,8 @@ import java.io.*;
 
 public class Prob05{
     public static void main(String[] args)throws Exception{
-        File file=new File("Prob05.in.txt");
+        final String dir = (args.length > 0) ? args[0] : "../../Cases/2013/sample/in/";
+        File file=new File(dir + "Prob05.in.txt");
         Scanner scan=new Scanner(file);
         String input = "";
         

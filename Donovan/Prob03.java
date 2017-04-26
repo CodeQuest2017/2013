@@ -2,8 +2,8 @@ import java.util.*;
 import java.io.*;
 
 public class Prob03 {
-	public static final String dir = "../../Cases/2013/sample/in/";
 	public static void main(String[] args) throws IOException {
+		final String dir = (args.length > 0) ? args[0] : "../../Cases/2013/sample/in/";
 		Scanner scan = new Scanner(new File(dir + "Prob03.in.txt"));
 		Map<String, Integer> map = new LinkedHashMap<String, Integer>();
 		while(scan.hasNextLine()) {

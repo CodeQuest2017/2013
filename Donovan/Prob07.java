@@ -2,13 +2,13 @@ import java.util.*;
 import java.io.*;
 
 public class Prob07 {
-	public static final String dir = "../../Cases/2013/sample/in/";
 	public static Map<String, Integer> map = new LinkedHashMap<String, Integer>();
 	public static final String[] name = new String[]
 		{"PENNY", "NICKEL", "DIME", "QUARTER", "ONE", "FIVE", "TEN", "TWENTY"};
 	public static final int[] value = new int[]
 		{1, 5, 10, 25, 100, 500, 1000, 2000};
 	public static void main(String[] args) throws IOException {
+		final String dir = (args.length > 0) ? args[0] : "../../Cases/2013/sample/in/";
 		Scanner scan = new Scanner(new File(dir + "Prob07.in.txt"));
 		while(scan.hasNextLine()) {
 			String[] in = scan.nextLine().split(", ");

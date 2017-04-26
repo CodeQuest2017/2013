@@ -2,9 +2,9 @@ import java.util.*;
 import java.io.*;
 
 public class Prob09 {
-	public static final String dir = "../../Cases/2013/sample/in/";
 	public static int max = 0;
 	public static void main(String[] args) throws IOException {
+		final String dir = (args.length > 0) ? args[0] : "../../Cases/2013/sample/in/";
 		Scanner scan = new Scanner(new File(dir + "Prob09.in.txt"));
 		int N = 0;
 		while(scan.hasNextLine()) {

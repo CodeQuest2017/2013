@@ -5,10 +5,10 @@ import java.text.*;
 import java.time.*;
 
 public class Prob16 {
-	public static final String dir = "../../Cases/2013/sample/in/";
 	public static List<Integer> called = new ArrayList<Integer>();
 	public static List<Integer[][]> cards = new ArrayList<Integer[][]>();
 	public static void main(String[] args) throws IOException {
+		final String dir = (args.length > 0) ? args[0] : "../../Cases/2013/sample/in/";
 		Scanner scan = new Scanner(new File(dir + "Prob16.in.txt"));
 		while(scan.hasNextInt()) {
 			Integer[][] card = new Integer[5][5];
